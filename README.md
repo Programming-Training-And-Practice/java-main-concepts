@@ -9,6 +9,7 @@
 * [About.](#about)
 * [Documentation.](#documentation)
 * [General.](#general)
+* [Java Flags(Arguments,Commands).](#java-flagsargumentscommands)
 * [Functional Java.](functional-java.md)
 * [Help.](#help)
 
@@ -29,6 +30,20 @@
 
 
 ## General.
+
+
+
+
+
+## Java Flags(Arguments,Commands).
+
+| Flag/Command                                                                                                       | Description                                                             |
+| ------------------------------------------------------------------------------------------------------------------ | ----------------------------------------------------------------------- |
+| -Xms 256m                                                                                                          |                                                                         |
+| -Xmx 1g                                                                                                            |                                                                         |
+| -XX:MaxDirectMemorySize=1g                                                                                         |                                                                         |
+| -J-Xmx5G                                                                                                           |                                                                         |
+|                                                                                                                    |                                                                         |
 
 
 

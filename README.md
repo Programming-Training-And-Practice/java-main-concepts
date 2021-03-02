@@ -1,5 +1,4 @@
 # Java Main Concepts.
-# Architecture Design Main Information.
 
 
 

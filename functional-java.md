@@ -33,7 +33,35 @@
 
 
 
-#Stream.
+## Functional Expression.
+* Java have two types of "functional expression":
+  * Lambda.
+  * Method reference.  
+
+
+
+
+
+# Functional Interface.
+* "Functional Interface" contains only one abstract method, the name of this method "single abstract method" or "sam"
+* "Functional Interface" will inherit all methods from the "Object".
+* "Functional Interface" can inherit other "Functional Interface".
+
+
+
+
+
+# Some Functional Interface.
+* Function<T,R>
+* UnaryOperator<T>  
+* Comparator<T>
+  * pay attention to the contract of the "equals" method
+
+
+
+
+
+# Stream.
 * The stream cannot be used twice. You should not reuse Stream.
 * The stream is lazy.
 * The stream is not mutable.
@@ -100,6 +128,15 @@
 
 
 ## Lambda.
+* Void-compatible (void SAM)
+* Value-compatible (non-void SAM)
+* capture value (closure)
+
+
+
+
+
+## Method Reference.
 
 
 
@@ -107,6 +144,15 @@
 
 ## Common mistakes made in Lambda.
 * Doing too much in single lambda.
+
+
+
+
+
+## Links.
+* [Лекция 7. Элементы функционального программирования на Java](https://www.youtube.com/watch?v=U10maNKqnXg&list=PLlb7e2G7aSpQith1Z6xRpU8jFPgkh_Gvz&index=7&ab_channel=ComputerScienceCenter)
+* [Лекция 8. Stream API](https://www.youtube.com/watch?v=Pk7atYm8bX0&list=PLlb7e2G7aSpQith1Z6xRpU8jFPgkh_Gvz&index=8&ab_channel=ComputerScienceCenter)
+* []()
 
 
 
